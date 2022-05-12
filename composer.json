@@ -1,0 +1,36 @@
+{
+  "name": "duroom/bbcode-alerts",
+  "description": "Add visual alerts / warnings to DuRoom posts",
+  "keywords": [
+    "bbcode",
+    "duroom",
+    "1Dot",
+    "alerts",
+    "warnings",
+    "notifications"
+  ],
+  "type": "duroom-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NKDuy"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/DuRoom/bbcode-alerts/issues",
+    "source": "https://github.com/DuRoom/bbcode-alerts"
+  },
+  "require": {
+    "duroom/core": "^1.2"
+  },
+  "extra": {
+    "duroom-extension": {
+      "title": "BBCode Alerts",
+      "icon": {
+        "name": "fas fa-exclamation",
+        "backgroundColor": "#000",
+        "color": "#fff"
+      }
+    }
+  }
+}
